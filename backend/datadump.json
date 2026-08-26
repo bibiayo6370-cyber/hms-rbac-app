@@ -1,0 +1,186 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "b0nhn4o5l5b5rz5xy5221loey1ibpx3a",
+    "fields": {
+        "session_data": ".eJxVzLsOwjAMheF3yUyiNDZJw8jOM1S241AuaqVeJsS7Q6UOMJ__Oy_T0br03Trr1N2KOZnACJlDtE3iZBGptYzYWu9DTRGPGSmZwy9jkocOmy13Gq6jk3FYphu7LXH7OrvLWPR53tu_g57m_quFhKLEiooFoJXSgIo0lDFmFK2AUGrQqp4peCUv7AMpRoBYoibz_gCVS0GR:1wzAKd:U_w2H3vKTuQMqENJHMw6RYRzORxCKZ4OxUceBqEMoDI",
+        "expire_date": "2026-09-09T09:54:07.409Z"
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$bU2hPdwC8vjQYPutiFKsjE$T321R2YvE0YZNSoWTGU7DdRJf6jSoWIGhx+iS5V5wcA=",
+        "last_login": "2026-08-26T09:54:07.383Z",
+        "is_superuser": true,
+        "username": "superadmin",
+        "first_name": "Super",
+        "last_name": "Admin",
+        "email": "superadmin@hims.test",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-08-26T09:51:37.414Z",
+        "role": "SUPER_ADMIN",
+        "phone_number": "",
+        "department": null,
+        "is_active_staff": true,
+        "created_at": "2026-08-26T09:51:37.414Z",
+        "updated_at": "2026-08-26T09:51:38.448Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$DkcOsIQLLKPp6Df9nYFHuF$DFlugIrVtBzsFvSz7p+Ni4W9Sk5/isBug2PHr0DIm70=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "labtech",
+        "first_name": "Larry",
+        "last_name": "Bello",
+        "email": "labtech@hims.test",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-08-26T09:51:41.879Z",
+        "role": "LAB_TECH",
+        "phone_number": "",
+        "department": null,
+        "is_active_staff": true,
+        "created_at": "2026-08-26T09:51:41.879Z",
+        "updated_at": "2026-08-26T09:51:43.065Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$c2Z3aek8Rf6S3TzxgeUzYb$URH9FjPobrrApnhzA8fsTpLG/wCnjhMwnI9/YEkhO7M=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "nurse",
+        "first_name": "Nkechi",
+        "last_name": "Eze",
+        "email": "nurse@hims.test",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-08-26T09:51:40.778Z",
+        "role": "NURSE",
+        "phone_number": "",
+        "department": null,
+        "is_active_staff": true,
+        "created_at": "2026-08-26T09:51:40.778Z",
+        "updated_at": "2026-08-26T09:51:41.863Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$SF7rwWBOOf7UjRTC80Qdoi$ek6SmwRIww1g5YhBQFMhqnu3XxXvibXmUG9v543vF2A=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "admin",
+        "first_name": "Ada",
+        "last_name": "Minlai",
+        "email": "admin@hims.test",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-08-26T09:51:38.476Z",
+        "role": "ADMIN",
+        "phone_number": "",
+        "department": null,
+        "is_active_staff": true,
+        "created_at": "2026-08-26T09:51:38.476Z",
+        "updated_at": "2026-08-26T09:51:39.607Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$WGOmn0dzF3REYU889He4cc$hAMVxFtxQzp3JSgBM3MD5v46uDTIZbiCLarDCop9/S0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "billing",
+        "first_name": "Biodun",
+        "last_name": "Ojo",
+        "email": "billing@hims.test",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-08-26T09:51:44.356Z",
+        "role": "BILLING_OFFICER",
+        "phone_number": "",
+        "department": null,
+        "is_active_staff": true,
+        "created_at": "2026-08-26T09:51:44.357Z",
+        "updated_at": "2026-08-26T09:51:45.451Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$YKbGOipGmUMhyHaoAt36HK$1EQrQgJDkdox1p0P+HkNKRO330Jm/EsmCtoI4ezdgqM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "pharmacist",
+        "first_name": "Peju",
+        "last_name": "Adewale",
+        "email": "pharmacist@hims.test",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-08-26T09:51:43.078Z",
+        "role": "PHARMACIST",
+        "phone_number": "",
+        "department": null,
+        "is_active_staff": true,
+        "created_at": "2026-08-26T09:51:43.079Z",
+        "updated_at": "2026-08-26T09:51:44.343Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$nKywAwo3AVeCmbdQ3rdd8s$UJEte7XbCHMel6pvrR9NCDguM1SFfiAEKOkKBgU53To=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "doctor",
+        "first_name": "David",
+        "last_name": "Ogunleye",
+        "email": "doctor@hims.test",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-08-26T09:51:39.623Z",
+        "role": "DOCTOR",
+        "phone_number": "",
+        "department": null,
+        "is_active_staff": true,
+        "created_at": "2026-08-26T09:51:39.623Z",
+        "updated_at": "2026-08-26T09:51:40.764Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.auditlog",
+    "pk": "f099e981-a4a1-4d57-adfc-f37a5abe2422",
+    "fields": {
+        "user": [
+            "superadmin"
+        ],
+        "action": "LOGIN",
+        "entity_type": "User",
+        "entity_id": "2b439b26-17b7-44a8-b448-002f764594a7",
+        "description": "Successful login for 'superadmin'",
+        "ip_address": "127.0.0.1",
+        "timestamp": "2026-08-26T09:57:09.912Z"
+    }
+}
+]
