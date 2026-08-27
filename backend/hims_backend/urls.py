@@ -18,4 +18,9 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/auth/", include("accounts.urls")),
     path("api/dashboard/", include("dashboard.urls")),
+    path("api/patients/", include("patients.urls")),
+    path("api/clinical/", include("clinical.urls")),
+    path("api/laboratory/", include("laboratory.urls")),
+    path("api/pharmacy/", include("pharmacy.urls")),
+    path("api/billing/", include("billing.urls")),
 ]
